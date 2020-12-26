@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Meteo</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+    <div>
+        <a href="adresses">Adresses</a>
+        <a href="adresse">Formulaire</a>
+        <a href="h2-console">Console H2</a>
+    </div>
+    <h1>Météo</h1>
+    Il fait <span th:text="${meteo}"/>°C à <span th:text="${addressAPI}"/>.
+</body>
+</html>

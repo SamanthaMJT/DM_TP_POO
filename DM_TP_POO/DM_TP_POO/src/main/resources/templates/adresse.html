@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+    <div>
+        <a href="adresses">Adresses</a>
+        <a href="adresse">Formulaire</a>
+        <a href="h2-console">Console H2</a>
+    </div>
+    <h1>Récupérer une adresse</h1>
+    <form action="/meteo" method="post">
+        <label for="address">Entrez l'adresse :</label>
+        <input type="text" name="address" id="address" required>
+        <br><br>
+        <input type="submit" value="Donner la température à cette adresse">
+    </form>
+</body>
+</html>
